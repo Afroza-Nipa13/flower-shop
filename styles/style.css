@@ -1,0 +1,193 @@
+.lato-thin {
+    font-family: "Lato", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .lato-light {
+    font-family: "Lato", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .lato-regular {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+ /* shared font   */
+  .lato-bold {
+    font-family: "Lato", serif;
+    font-size: 40px;
+    font-weight: 800;
+    font-style: normal;
+    padding-bottom: 20px;
+  }
+  .seconary-font{
+    font-family: "Lato", serif;
+    font-size: 40px;
+    font-weight: 800;
+    font-style: normal;
+    padding-bottom: 20px;
+    color:rgb(214, 52, 79)
+
+  }
+  .lato-black {
+    font-family: "Lato", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  
+  
+  
+  
+  
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+/* hero section */
+
+header{
+    background-color:rgb(252, 241, 242);
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 240px 0px 240px;
+    gap: 87px;
+    
+   
+}
+
+.left-content{
+    max-width: 708px;
+    
+    margin-top: 147px ;
+    
+}
+
+.right-image{
+    width: 635px;
+    
+    
+
+}
+.banner-title{
+    text-align: left;
+      font-size: 80px;
+      font-weight: 700;
+      color: black;
+
+}
+.banner-para{
+    font-size: 18px;
+    font-weight: 400;
+    color:rgb(39, 39, 39, 60%);
+}
+.btn-primary{
+    font-size: large;
+    color: rgb(243, 241, 241);
+    background-color: rgb(228, 82, 130);
+    width: 179px;
+    height: 64px;
+    border: none;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* flower-container section */
+
+.feature-section{
+  
+    text-align: center;
+    padding: 200px 100px;
+    
+    
+}
+
+.flower-container{
+     display: flex;
+     justify-content: space-around;
+     margin-top: 100px;
+     gap: 30px;
+}
+.flower{
+   
+    background-color: rgb(255, 255, 255);
+}
+
+.bg-red{
+    background-color: rgb(214, 232, 247); 
+    padding: 130px 20px 80px 20px;
+    border-radius: 250px 250px 0px 0px;
+
+}
+.bg-yellow{
+    padding: 110px 50px 5px 50px;
+    background-color: rgb(171, 202, 192);
+    border-radius: 250px 250px 0px 0px;
+   
+}
+ .bg-pink{
+    padding: 150px 50px 0px 50px;
+    background-color: rgb(252, 217, 246);
+    
+    border-radius: 250px 250px 0px 0px;
+ }
+
+ /* Services section starts here  */
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ .service-container{
+           max-width: 1440px;
+           text-align: center;
+           margin-bottom: 50px;
+
+ }
+ .services{
+      background-color: rgb(207, 209, 211);
+      padding:150px 300px;
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+      gap:20px;
+ }
+/* hot-offer banner starts here */
+.hot-deal-container{
+    background-color:  rgb(252, 241, 242);
+    margin-bottom: 10px;
+
+}
+.hot-deal-section{
+        display: flex;
+        justify-content: space-between;
+        padding: 100px 200px 80px 300px;
+        margin:0px auto;
+        gap: 30px;
+
+}
+ 
+.left-content{
+    max-width: 594px;
+    text-align: center;
+    
+
+ }
+
+ .right-image{
+    width: 318px;
+    height: 420px;
+ }
+
